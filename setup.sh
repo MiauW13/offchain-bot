@@ -1,6 +1,3 @@
-sudo curl https://dlcdn.apache.org/kafka/3.1.0/kafka_2.12-3.1.0.tgz -o kafka.tgz
-sudo tar xhf kafka.tgz
-sudo rm -rf kafka.tgz
 sudo apt-get update
 sudo apt-get install apt-transport-https curl gnupg -yqq
 echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
