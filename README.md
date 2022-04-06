@@ -66,7 +66,7 @@ For Linux
 
 # FOR WINDOWS
 
-you can run the sam script on windows using WSL, so you need to enable and install wsl on your windows mechine first and run the script on the wsl wit linux      distribution, you can find how to install it here
+you can run the sam script on windows using WSL, so you need to enable and install wsl on your windows mechine first and run the script on the wsl wit linux      distribution, you can find how to install it on https://docs.microsoft.com/en-us/windows/wsl/install-manual
   and follow the instruction like on linux as above
 
   if you don’t mind to buy me cofee please feel free to send it to this wallet 
