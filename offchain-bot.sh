@@ -21,7 +21,9 @@ cd ergo-dex-backend
 sbt amm-executor/assembly
 sbt pool-resolver/assembly
 sbt utxo-tracker/assembly
+
 cd ~/offchain-bot
+
 sudo cp `find . -name AmmExecutor-*.jar` Amm-executor/Amm-executor.jar
 sudo cp `find . -name PoolResolver-*.jar` Pool-resolver/Pool-resolver.jar
 sudo cp `find . -name UtxoTracker-*.jar` Utxo-tracker/Utxo-tracker.jar
