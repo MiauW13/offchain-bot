@@ -39,7 +39,7 @@ For Linux
             
   4. open new terminal than run zookeeper with this command
 	          
-            cd kafka_2.12-3.1.0
+            cd kafka
             
             ./bin/zookeeper-server-start.sh ./config/zookeeper.properties
   5. open new terminal run kafka server with this command
