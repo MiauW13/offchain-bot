@@ -21,5 +21,9 @@ sudo cp utxo.conf Utxo-tracker/application.conf
 sudo rm -rf amm.conf
 sudo rm -rf pool.conf
 sudo rm -rf utxo.conf
+
+sudo curl https://dlcdn.apache.org/kafka/3.1.0/kafka_2.12-3.1.0.tgz -o kafka.tgz
+sudo tar xhf kafka.tgz
+sudo rm -rf kafka.tgz
  
 
