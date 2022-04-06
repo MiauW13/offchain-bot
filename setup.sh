@@ -1,4 +1,4 @@
-wget https://dlcdn.apache.org/kafka/3.1.0/kafka_2.12-3.1.0.tgz
+sudo wget https://dlcdn.apache.org/kafka/3.1.0/kafka_2.12-3.1.0.tgz
 sudo tar xhf kafka_2.12-3.1.0.tgz
 sudo rm -rf kafka_2.12-3.1.0.tgz
 sudo apt-get update
