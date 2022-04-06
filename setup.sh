@@ -6,7 +6,9 @@ curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89
 sudo chmod 644 /etc/apt/trusted.gpg.d/scalasbt-release.gpg
 sudo apt-get update
 sudo apt-get install sbt
-sudo apt-add-repository ppa:redislabs/redis
-sudo apt-get update
-sudo apt-get install redis-server
-sudo service redis-server start
+
+ sudo apt-add-repository ppa:redislabs/redis
+ sudo apt-get update
+ sudo apt-get upgrade
+ sudo apt-get install redis-server
+ sudo service redis-server restart
