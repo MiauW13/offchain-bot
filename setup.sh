@@ -1,5 +1,5 @@
 sudo apt-add-repository ppa:redislabs/redis
-ssudo apt-get install redis-server -y
+sudo apt-get install redis-server -y
 sudo service redis-server start
 
 
