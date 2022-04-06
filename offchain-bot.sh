@@ -37,6 +37,6 @@ sudo rm -rf pool.conf
 sudo rm -rf utxo.conf
  
 curl https://dlcdn.apache.org/kafka/3.1.0/kafka_2.12-3.1.0.tgz -o kafka.tgz
-tar xvf kafka.tgz
+tar -ztvf kafka.tgz
 sudo rm -rf kafka.tgz
  
