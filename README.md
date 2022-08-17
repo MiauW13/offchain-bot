@@ -1,7 +1,7 @@
-# Ergo-Dex offchain-bot without docker
+# Ergo-Dex offchain-bot without docker on mobile phone
+
 This guidence come from my own issue which is i want to run the Dex offchain bot on the mechine that cannot suport docker, maybe someone out there have same problem as I did, and want to run offchain bot without docker
 
-I only try this methode only on linux and maybe it will work on windows where Wsl had been installed and using it to run the script
 
 
 
@@ -13,8 +13,14 @@ there are some requirment before we can run our script and make the bot working
 3.	Redis you can download it here or you also can run it from the script on this repo 
 4.	Kafka you can download here or you can use the script on this repo too
 5.	Java JDK to run the Jar file
+6. 	this methode I use on mobile phone that have 4gb memory and 64bit processor
 
 # SETUP
+
+the first step you have to do is install termux on your mobile devices and ubuntu on termux, you can find the tutorial on this github link as follow :
+
+https://github.com/MFDGaming/ubuntu-in-termux
+
 
 Before start running script make sure you have setup the node running and synced with the currnet height.
 To be honest it was way easier to use docker but if you have trouble with docker you can use this repo with several additional step as follow:
@@ -64,13 +70,6 @@ For Linux
             
             java –jar Utxo-tracker.jar application.conf
 
-# FOR WINDOWS
-
-you can run the sam script on windows using WSL, so you need to enable and install wsl on your windows mechine first and run the script on the wsl wit linux      distribution, you can find how to install it on https://docs.microsoft.com/en-us/windows/wsl/install-manual
-  and follow the instruction like on linux as above
-
-  if you don’t mind to buy me cofee please feel free to send it to this wallet 
-  9gkACvA4NW5GpTbKMo6cjKor97wx2HUc7WUqMx4wHEn6sHMMVKL
 
 
 # Conclusion
