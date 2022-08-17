@@ -22,7 +22,7 @@ sbt amm-executor/assembly
 sbt pool-resolver/assembly
 sbt utxo-tracker/assembly
 
-cd ~/offchain-bot
+cd ..
 
 cp `find . -name AmmExecutor-*.jar` Amm-executor/Amm-executor.jar
 cp `find . -name PoolResolver-*.jar` Pool-resolver/Pool-resolver.jar
@@ -38,9 +38,9 @@ rm -rf amm.conf
 rm -rf pool.conf
 rm -rf utxo.conf
 
-cd ~
+cd ..
  
 curl https://dlcdn.apache.org/kafka/3.1.0/kafka_2.12-3.1.0.tgz -o kafka.tgz
-tar xvf kafka.tgz
+tar zxvf kafka.tgz
 rm -rf kafka.tgz
  
