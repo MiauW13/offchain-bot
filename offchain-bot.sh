@@ -40,7 +40,7 @@ rm -rf utxo.conf
 
 cd ..
  
-curl https://dlcdn.apache.org/kafka/3.1.0/kafka_2.12-3.1.0.tgz -o kafka.tgz
+curl https://downloads.apache.org/kafka/3.2.3/kafka_2.12-3.2.3.tgz -o kafka.tgz
 tar zxvf kafka.tgz
 rm -rf kafka.tgz
  
